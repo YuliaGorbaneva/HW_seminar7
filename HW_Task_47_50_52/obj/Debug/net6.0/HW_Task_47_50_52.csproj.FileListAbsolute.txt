@@ -1,0 +1,15 @@
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.csproj.AssemblyReference.cache
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.GeneratedMSBuildEditorConfig.editorconfig
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.AssemblyInfoInputs.cache
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.AssemblyInfo.cs
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.csproj.CoreCompileInputs.cache
+E:\HW_seminar7\HW_Task_47_50_52\bin\Debug\net6.0\HW_Task_47_50_52.exe
+E:\HW_seminar7\HW_Task_47_50_52\bin\Debug\net6.0\HW_Task_47_50_52.deps.json
+E:\HW_seminar7\HW_Task_47_50_52\bin\Debug\net6.0\HW_Task_47_50_52.runtimeconfig.json
+E:\HW_seminar7\HW_Task_47_50_52\bin\Debug\net6.0\HW_Task_47_50_52.dll
+E:\HW_seminar7\HW_Task_47_50_52\bin\Debug\net6.0\HW_Task_47_50_52.pdb
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.dll
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\refint\HW_Task_47_50_52.dll
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.pdb
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\HW_Task_47_50_52.genruntimeconfig.cache
+E:\HW_seminar7\HW_Task_47_50_52\obj\Debug\net6.0\ref\HW_Task_47_50_52.dll
