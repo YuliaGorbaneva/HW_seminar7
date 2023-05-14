@@ -159,19 +159,19 @@ void MidlSumm()
     int a = int.Parse(Console.ReadLine());
     Console.WriteLine("Введите количество столбцов: ");
     int b = int.Parse(Console.ReadLine());
-    int [,] array = new int [a, b];
+    double [,] array = new double [a, b];
 
-    FillElement(array);
-    PrintElement(array);
+    FillElements(array);
+    PrintElements(array);
     ArithmeticMeanHorizontally(array, a);
     ArithmeticMeanVertically(array);
 }
 
-double ArithmeticMeanHorizontally(int [,] array, double midlArifmet)
+double ArithmeticMeanHorizontally(double [,] array, double midlArifmet)
 {
     for (int j = 0; j < array.GetLength(1); j++)
     {    
-        int sumHoriz = 0;
+        double sumHoriz = 0;
         for (int i = 0; i < array.GetLength(0); i++) 
         {
                 sumHoriz += array[i,j]; 
@@ -186,12 +186,12 @@ double ArithmeticMeanHorizontally(int [,] array, double midlArifmet)
     return midlArifmet;
 }
 
-void ArithmeticMeanVertically(int [,] array)
+void ArithmeticMeanVertically(double [,] array)
 {
     
     for (int i = 0; i < array.GetLength(0); i++)
     {
-        int sumVertic = 0;
+        double sumVertic = 0;
         for (int j = 0; j < array.GetLength(1); j++)
         {
                 sumVertic += array[i,j];
@@ -202,4 +202,27 @@ void ArithmeticMeanVertically(int [,] array)
         Console.WriteLine();
     }
     Console.WriteLine();
+}
+
+void FillElements(double [,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+        {
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                array [i,j] = new Random().Next(1, 20);
+            }
+        }
+}
+
+void PrintElements(double [,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+        {
+            for (int j = 0; j < array.GetLength(1); j++)
+                {
+                    Console.Write($"{array[i, j]}  ");
+                }
+            Console.WriteLine();
+        }
 }
